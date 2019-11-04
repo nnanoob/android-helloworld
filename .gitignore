@@ -1,0 +1,53 @@
+#IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.springBeans
+*.launch
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Java
+*.war
+*.ear
+*.class
+hs_err_pid*
+
+# Ruby
+.bundle/
+gems/
+
+# JavaScript
+bower_components/
+node_modules/
+
+# Genie
+drivers/
+*.err
+*.out
+
+#Gradle
+.gradle
+build/
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+gradle/wrapper/gradle-wrapper.properties
+
+tmp/
